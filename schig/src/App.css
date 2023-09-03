@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #dbdbdb;
+  margin: 0;
+  padding: 0;
+}
+
+.triangle-intro {
+  border-left: 40vh solid transparent;
+  border-bottom: 15vh solid #8951ff;
+  border-top-right-radius: "25px";
+  border-bottom-right-radius: "25px";
+}
+
+.triangle-levels {
+  border-left: 40vh solid transparent;
+  border-bottom: 15vh solid #2b2b2b;
+  border-top-right-radius: "25px";
+  border-bottom-right-radius: "25px";
+}
+
+.triangle-class {
+  border-left: 8vh solid transparent;
+  border-top-right-radius: "10px";
+  border-bottom-right-radius: "10px";
+}
